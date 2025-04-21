@@ -3,4 +3,4 @@ sudo apt install --reinstall kali-archive-keyring
 curl -fsSL https://archive.kali.org/archive-key.asc | gpg --dearmor | sudo tee /usr/share/keyrings/kali-archive-keyring.gpg > /dev/null
 sudo nano /etc/apt/sources.list
 deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali kali-rolling main non-free contrib
-
+https://chatgpt.com/c/67f77f8d-1bec-8005-a56c-ef1a12fdfc28
