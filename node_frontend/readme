@@ -8,3 +8,4 @@ https://chatgpt.com/share/68064772-1c7c-8005-8832-c758866c81f4
 sudo nano /etc/apt/sources.list
 deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali kali-rolling main non-free contrib
 ls -l /usr/share/keyrings/kali-archive-keyring.gpg
+deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali kali-rolling main non-free contrib
