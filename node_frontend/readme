@@ -10,3 +10,4 @@ deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.or
 ls -l /usr/share/keyrings/kali-archive-keyring.gpg
 deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali kali-rolling main non-free contrib
 curl -fsSL https://archive.kali.org/archive-key.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/kali-archive-keyring.gpg > /dev/null
+deb [signed-by=/usr/share/keyrings/kali-archive-keyring.gpg] http://http.kali.org/kali kali-rolling main non-free contrib
